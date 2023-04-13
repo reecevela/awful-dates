@@ -103,10 +103,14 @@ var generatorButton = document.getElementById('generator-button');
 var progressBar = document.getElementById('progress-bar');
 generatorButton.addEventListener('click', function () {
   generatorButton.disabled = true;
+  generatorButton.classList.add('neu-down');
+  generatorButton.classList.remove('neu-up');
   progressBar.classList.remove('hidden');
   progressBar.style.animation = 'progress 1s linear forwards';
   setTimeout(function () {
     ideaElement.classList.remove('hidden');
+    generatorButton.classList.add('neu-up');
+    generatorButton.classList.remove('neu-down');
     var i = Math.floor(Math.random() * len);
     ideaElement.textContent = _dates_js__WEBPACK_IMPORTED_MODULE_1__["default"][i];
     progressBar.classList.add('hidden');
