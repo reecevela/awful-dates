@@ -4,7 +4,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: fantasy;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   background-color: brown;
 }
 
@@ -40,7 +40,7 @@ button {
   width: 140px;
   border: none;
   color: white;
-  font-family: fantasy;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: x-large;
   background-color: pink;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
